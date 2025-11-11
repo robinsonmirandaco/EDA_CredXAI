@@ -1,0 +1,41 @@
+# CredXAI-RM — Exploratory Data Analysis (EDA)
+
+**Author:** Robinson Miranda  
+**Version:** 1.0 (2025)
+
+---
+
+## Overview
+Exploratory Data Analysis (EDA) performed on the **synthetic SME credit dataset** created for the CredXAI-RM project.  
+The notebook analyzes structure, quality, and relationships among financial and behavioral variables of small businesses applying for credit.
+
+---
+
+## Objectives
+- Explore and understand dataset structure and data types.  
+- Detect missing values and outliers.  
+- Visualize distributions, skewness, and correlations.  
+- Prepare data for later modeling and explainability analysis.
+
+---
+
+## Repository Contents
+| File | Description |
+|------|--------------|
+| `01_EDA_CredXAI.ipynb` | Main notebook for exploratory analysis. |
+| `data/` | Input datasets (synthetic and transformed). |
+| `outputs/` | Plots and transformed data generated during EDA. |
+
+---
+
+## Main Steps
+1. Data import and variable classification.  
+2. Statistical summary and descriptive metrics.  
+3. Outlier and skewness analysis.  
+4. Log transformations and normalization.  
+5. Correlation and feature relationship visualization.
+
+---
+
+## 📊 Tools
+Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn.  
